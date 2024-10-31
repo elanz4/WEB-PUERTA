@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="44" viewBox="0 0 159 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_148" data-name="Rectángulo 148" width="27.5" height="26.956" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_49" data-name="Grupo 49" transform="translate(-1621 -144)">
+    <g id="Grupo_48" data-name="Grupo 48" transform="translate(1740.75 152.522)">
+      <g id="Grupo_48-2" data-name="Grupo 48" clip-path="url(#clip-path)">
+        <path id="Trazado_51" data-name="Trazado 51" d="M10.24,18.784c-1.619,1.636-3.209,3.247-4.8,4.854q-1.269,1.28-2.548,2.551c-.875.876-1.756,1.008-2.424.365-.719-.692-.606-1.524.346-2.478q3.416-3.421,6.837-6.837c.191-.191.373-.392.551-.58A10.732,10.732,0,0,1,11.245,1.636,10.573,10.573,0,0,1,24.811,17.594a10.646,10.646,0,0,1-14.571,1.19M16.921,2.425a8.14,8.14,0,1,0,8.147,8.106,8.1,8.1,0,0,0-8.147-8.106" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Rectángulo_149" data-name="Rectángulo 149" transform="translate(1621 144)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="159" height="44" stroke="none"/>
+      <rect x="0.5" y="0.5" width="158" height="43" fill="none"/>
+    </g>
+  </g>
+</svg>
