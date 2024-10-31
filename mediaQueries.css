@@ -1,0 +1,3582 @@
+/* media queries */
+/*Pagina Fabricantes de Puertas Frigorificas*/
+/*Sección Principal*/
+@media(max-width: 1800px) {
+  .h1-fabricantes {
+    font-size: 60px;
+    margin-top: 0px;
+  }
+
+  .parrafo-fabricante {
+    margin-top: 0px;
+    font-size: 26px;  
+  }
+  
+  .color_solicitar_p {
+    color: var(--blue-color);
+
+    margin-top: 0px;
+    font-size: 24px;
+  }
+
+  /*Sección misión y visión*/
+  .container_mision-vision {
+    width: 100%;
+    background-color: var(--black-color);
+  }
+  
+  .section-2-mision1 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: var(--black-color);
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(15, 0.1fr);
+    padding: 0;
+  }
+  
+  .img-corredera-fabricante {
+    width: 90%;
+    height: auto;
+    grid-column: 2 / 7;
+    grid-row: 3 /13;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+  
+    
+  }
+  
+  .sub-title-solution {
+    display: flex;
+    color: var(--withe-color);
+    grid-column: 7 / 14;
+    grid-row: 3 / 3;
+    font-size: 1.2vw;
+    opacity: 70%;
+    align-items: center;
+  }
+  
+  .title-mision-1 {
+    font-size: 50px;
+    grid-column: 7 / 14;
+    grid-row: 4 / 4;
+    color: var(--yellow-color);
+  }
+  
+  .-color {
+    color: var(--black-color);
+  }
+  
+  .mision-color {
+    color: var(--withe-color);
+    font-weight: 400;
+  }
+  
+  .mision1-p {
+    width: 100%;
+    text-align: justify;
+    color: var(--withe-color);
+    font-size: 21px;
+    grid-column: 7 / 14;
+    grid-row: 5 / 10;
+    padding-top: 20px;
+  } 
+  
+/*---------------------------*/
+.img-puertas-pivotantes {
+  width: 90%;
+  height: auto;
+  grid-column: 9 / 14;
+  grid-row: 3 /13;
+  border-radius: 20px;
+  position: relative;
+  left: 40px;
+}
+
+.sub-title-calidad {
+  display: flex;
+  color: var(--withe-color);
+  grid-column: 2 / 6;
+  grid-row: 3 / 3;
+  font-size: 1.2vw;
+  opacity: 70%;
+  align-items: center;
+}
+
+.title-vision-2 {
+  display: flex;
+  font-size: 50px;
+  grid-column: 2 / 7;
+  grid-row: 4 / 4;
+  align-items: center;
+  color: var(--yellow-color);
+}
+
+.vision-color {
+  color:var(--withe-color);
+  font-weight: 400;
+}
+
+.visión1-p {
+  width: 100%;
+  text-align: justify;
+  color: var(--withe-color);
+  font-size: 21px;
+  grid-column: 2 / 9;
+  grid-row: 5 / 10;
+  padding-top: 20px;
+}
+
+/*___________________________________________*/
+/*Sección Compromiso 3A*/
+.img-compromiso-3a {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  grid-column: 8 / 14;
+  grid-row: 3 / 10;
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.compromiso {
+  font-size: 50px;
+  grid-column: 2 / 8;
+  grid-row: 3 / 7;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.compromiso-p-3a {
+  grid-column: 2 / 8;
+  grid-row: 6 / 10;
+  margin-left: 0px;
+  text-align: justify;
+  font-size: 21px;
+  padding-right: 40px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+}
+
+.compromiso-puertas {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-palabra-frigorifica {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.request-quote {
+  width: 80%;
+  height: 70%;
+  background-color:var(--withe-color);
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius:10px;
+  grid-column: 2 / 8;
+  grid-row: 9 / 10;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+
+}
+
+.request-quote button {
+  position: relative;
+  background-color: var(--yellow-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  left: 250px;
+  width: 25%;
+  height: 103%;
+}
+
+.request-quote button:hover {
+  background-color: var(--black-color);
+  color: var(--withe-color);
+}
+
+}
+
+@media(max-width: 1700px) {
+  /*PAGINA CONTACTO-SECCIÓN FORMULARIO*/
+  .imag-contact-2 {
+  grid-column: 2 / 7;
+  grid-row: 6 / 14;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  }
+
+  .solicitud-presupuesto1 {
+    font-size: 51px;
+    grid-column: 2 / 8;
+    grid-row: 2 / 3;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  
+  }
+
+  .parrafo-solicitud-presupuesto3a {
+    grid-column: 2 / 7;
+    grid-row: 3 / 7;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20.4px;
+    padding-right: 0px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border: solid orange;
+  }
+
+  .parrafo-solicitud-presupuesto3a-2 {
+    border: solid orange; 
+    text-align: justify;
+    grid-column: 7 / 14;
+    grid-row: 8 / 13;
+    font-size: 20.4px;
+  }
+}
+
+@media(max-width: 1651px) {
+  /*Responsive sub-menu*/
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 10 / 13
+}
+
+  /*Responsive menu principal*/
+  .button-lenguaje {
+    grid-column: 13 /13;
+  }
+
+  /*Responsive circulos slider*/
+
+.dot {
+  height: 1vw;
+  width: 1vw;
+  margin: 0 0.4vw;
+}
+
+
+  /*Responsive galeria de proyecto*/
+  .gallery-proyect-2  {
+    padding:25px 49px;
+  }
+
+  .gallery-proyect .gallery-container {
+    margin: 10px;
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .gallery-proyect .gallery-container-2 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .gallery-proyect-2  {
+    padding: 50px 30px 90px 30px;
+  }
+
+  .gallery-proyect-2 .gallery-container-4 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1vw;
+  }
+
+  .gallery-proyect-2 .gallery-container-3 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1vw;
+  }
+
+
+}
+
+@media(max-width: 1602px) {
+  /*Responsive sub-menu*/
+  .main-menu .menu {
+    grid-column: 9 / 13;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .gallery-proyect #saber-mas, .gallery-proyect-2 #saber-mas-03 {
+    font-size: 0.9vw;
+  }
+
+  /*responsive Quienes somos*/
+  .about {
+    grid-column: 2 / 8;
+    grid-row: 1 / 1;
+  }
+  .about-p {
+    font-size: 1.2vw;
+  }
+
+  .about-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  /*Sección Soluciones integrales*/
+  .soluciones-h2 {
+    grid-column: 8 / 15;
+    grid-row: 3 / 5;
+    font-size: 2.5vw;
+  }
+
+  .empresa-h2 {
+    grid-column: 8 / 15;
+    grid-row: 4 / 6;
+    font-size: 2.5vw;
+  }
+
+  .parrafo-1 {
+    font-size: 1.3vw;
+    color: var(--withe-color);
+    width: 100%;
+    grid-column: 8 / 14;
+    grid-row: 5 / 7;
+    padding-left: 3%;
+    padding-top: 4%;
+  }
+
+  .parrafo-2 {
+    grid-column: 8 / 13;
+    grid-row: 6 / 9;
+    font-size: 1.2vw;
+    padding-top: 4%;
+  }
+
+  .parrafo-3 {
+    font-size: 1.3vw;
+    grid-column: 8 / 13;
+    grid-row: 9 / 11;
+    margin-left: 4%;
+    padding-top: 6%;
+  }
+  
+  .parrafo-4 {
+    grid-column: 8 / 13;
+    grid-row: 10 / 13;
+    font-size: 1.2vw;
+    padding-top: 5%;
+  }
+
+
+
+  /*footer-02*/
+  .content-footer-3 {
+    grid-column: 5 / 10;
+    grid-row: 2 / 2;
+    opacity: 70%;
+    margin-left: 15px;
+  }
+
+  /*------------------------------*/
+
+  /*Pantalla Fabricantes de puertas*/
+  /*Sección Portada*/
+  .background-img-fabricante {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 0.3fr);
+  }
+
+  .img-fabricantes {
+    padding: 0;
+    width: 100%;
+    height: auto;
+    grid-column: 1 / 15;
+    grid-row: 1 / 15;
+  }
+
+
+  .h1-fabricantes {
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 3.75vw;
+    grid-column: 2 / 10;
+    grid-row: 5 / 8;
+  }
+
+  .parrafo-fabricante {
+    padding: 0;
+    margin: 0px;
+    font-size: 1.5vw;
+    grid-column: 2 / 10;
+    grid-row: 8 / 10;
+  }
+  
+  .color_solicitar_p {
+    color: var(--blue-color);
+    grid-column: 2 / 10;
+    grid-row: 10 / 10;
+    font-size:  1.3vw;
+    margin: 0;
+    padding: 0px;
+
+  }
+
+  /*Sección 2 misión y visión de la empresa*/
+  /*Sección misión y visión*/
+  .container_mision-vision {
+    width: 100%;
+    background-color: var(--black-color);
+  }
+  
+  .section-2-mision1 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    background-color: var(--black-color);
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(15, 0.1fr);
+    padding: 0;
+  }
+  
+  .img-corredera-fabricante {
+    width: 90%;
+    height: auto;
+    grid-column: 2 / 7;
+    grid-row: 3 /13;
+    border-radius: 20px;
+    position: relative;
+    left: 10px;
+  
+    
+  }
+  
+  .sub-title-solution {
+    display: flex;
+    color: var(--withe-color);
+    grid-column: 7 / 14;
+    grid-row: 3 / 3;
+    font-size: 1.2vw;
+    opacity: 70%;
+    align-items: center;
+  }
+  
+  .title-mision-1 {
+    font-size: 3.125vw;
+    grid-column: 7 / 14;
+    grid-row: 4 / 4;
+    color: var(--yellow-color);
+  }
+  
+  .-color {
+    color: var(--black-color);
+  }
+  
+  .mision-color {
+    color: var(--withe-color);
+    font-weight: 400;
+  }
+  
+  .mision1-p {
+    width: 100%;
+    text-align: justify;
+    color: var(--withe-color);
+    font-size: 1.3125vw;
+    grid-column: 7 / 14;
+    grid-row: 5 / 10;
+    padding-top: 20px;
+  } 
+  /*-----------------------*/
+
+  .img-puertas-pivotantes {
+    width: 90%;
+    height: auto;
+    grid-column: 9 / 14;
+    grid-row: 3 /13;
+    border-radius: 20px;
+    position: relative;
+    left: 45px;
+  }
+  
+  .sub-title-calidad {
+    display: flex;
+    color: var(--withe-color);
+    grid-column: 2 / 6;
+    grid-row: 3 / 3;
+    font-size: 1.2vw;
+    opacity: 70%;
+    align-items: center;
+  }
+  
+  .title-vision-2 {
+    display: flex;
+    font-size: 3.125vw;
+    grid-column: 2 / 7;
+    grid-row: 4 / 4;
+    align-items: center;
+    color: var(--yellow-color);
+  }
+  
+  .vision-color {
+    color:var(--withe-color);
+    font-weight: 400;
+  }
+  
+  .visión1-p {
+    width: 100%;
+    text-align: justify;
+    color: var(--withe-color);
+    font-size: 1.3125vw;
+    grid-column: 2 / 9;
+    grid-row: 5 / 10;
+    padding-top: 20px;
+  }
+
+  /*___________________________________________*/
+/*Sección Compromiso 3A*/
+.img-compromiso-3a {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  grid-column: 8 / 14;
+  grid-row: 3 / 10;
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.compromiso {
+  font-size: 3.1vw;
+  grid-column: 2 / 8;
+  grid-row: 3 / 7;
+  margin-left: 0px;
+  margin-bottom: 60px;
+  margin-top: 0px;
+}
+
+.compromiso-p-3a {
+  grid-column: 2 / 8;
+  grid-row: 6 / 10;
+  margin-left: 0px;
+  text-align: justify;
+  font-size: 1.25vw;
+  padding-right: 40px;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+.compromiso-puertas {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.color-palabra-frigorifica {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.request-quote {
+  width: 80%;
+  height: 70%;
+  background-color:var(--withe-color);
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius:10px;
+  grid-column: 2 / 8;
+  grid-row: 9 / 10;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  font-size: 1.25vw;
+  position: relative;
+  top: 40px;
+
+}
+
+.request-quote button {
+  position: relative;
+  background-color: var(--yellow-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2vw;
+  left: 45%;
+  width: 25%;
+  height: 103%;
+}
+
+.request-quote button:hover {
+  background-color: var(--black-color);
+  color: var(--withe-color);
+}
+
+/*PAGINA CONTACTO-SECCIÓN FORMULARIO*/
+.imag-contact-2 {
+  grid-column: 2 / 7;
+  grid-row: 6 / 14;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  }
+
+  .img-puertarapida-contact {
+    width: 500px;
+    height: auto;
+    box-shadow: 7px 10px 15px rgba(73, 73, 73, 0.5);
+  }
+
+  .solicitud-presupuesto1 {
+    font-size: 51px;
+    grid-column: 2 / 8;
+    grid-row: 2 / 3;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  
+  }
+
+  .parrafo-solicitud-presupuesto3a {
+    grid-column: 2 / 7;
+    grid-row: 3 / 7;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 20.4px;
+    padding-right: 0px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border: solid orange;
+  }
+
+  .parrafo-solicitud-presupuesto3a-2 {
+    border: solid orange; 
+    text-align: justify;
+    grid-column: 7 / 14;
+    grid-row: 8 / 13;
+    font-size: 20.4px;
+  }
+
+}
+
+@media(max-width: 1500px) {
+
+  /*PAGINA CONTACTO-SECCIÓN FORMULARIO*/
+.container-solicitud-presupuesto {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  height: 100%;
+  grid-column: 1 / 5;
+  grid-row: 6 / 14;
+  background-color: #F5F5F7;
+  margin: 0px 0 0 0;
+  display: flex;
+  align-items: flex-end;
+  }
+
+.imag-contact-2 {
+  grid-column: 2 / 7;
+  grid-row: 6 / 14;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border: solid orange;
+  margin: 60px 0;
+  }
+
+  .img-puertarapida-contact {
+    width: 430px;
+    height: auto;
+    box-shadow: 7px 10px 15px rgba(73, 73, 73, 0.5);
+  }
+
+  .solicitud-presupuesto1 {
+    font-size: 3.4vw;
+    grid-column: 2 / 8;
+    grid-row: 2 / 3;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  
+  }
+
+  .parrafo-solicitud-presupuesto3a {
+    grid-column: 2 / 7;
+    grid-row: 3 / 7;
+    margin-left: 0px;
+    text-align: justify;
+    font-size: 1.2vw;
+    padding-right: 0px;
+    padding-top: 20px;
+    margin-top: 0px;
+    border: solid orange;
+  }
+
+  .parrafo-solicitud-presupuesto3a-2 {
+    border: solid orange; 
+    text-align: justify;
+    grid-column: 7 / 14;
+    grid-row: 8 / 14;
+    font-size: 1.2vw;
+    padding-left: 40px;
+  }
+
+  .anotaciones-form {
+    font-size: 16px;
+    height: 120px;
+  }
+
+  .form-container {
+    width: 80%;
+    height: 650px;
+    margin: 0 0 0 55px;
+    padding: 60px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    grid-column: 7 / 15;
+    grid-row: 2 / 8;
+    box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+    justify-content: flex-end;
+  }
+
+}
+
+@media(max-width: 1350px) {
+  /*sub menu*/
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 10 / 13
+}
+/*Galeria de proyecto-1*/
+.gallery-proyect  {
+  width: 100%; 
+  padding: 90px 50px 0px 50px;
+}
+
+.gallery-proyect .text1 {
+  padding-top: 40px;
+}
+
+.gallery-container-2 .text2 {
+  padding-top: 40px;
+}
+
+.content-text1 .p1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.gallery-container-2 .p2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Galeria de proyecto-2*/
+.gallery-proyect-2 .text03 {
+  padding-top: 40px;
+}
+
+.content-text03 .p03 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.gallery-container-4 .text4-aplicaciones {
+  padding-top: 40px;
+}
+
+.content-text4 .p4-aplicaciones {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*Sección quienes somos*/
+.swiper {
+  width: 100%;
+  margin: 0 0 10px 0;
+  overflow: 6 visible !important;
+  padding: 40px 0 40px 0;
+}
+
+/*Sección quienes somos*/
+.container-about {
+  padding: 50px 0;
+}
+
+}
+
+@media(max-width: 1322px) {
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+  
+  
+  .navbar-default .contact-container {
+    grid-column:   2 / 7;
+    list-style: none;
+    
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 20px 0 0px;;
+  }
+}
+
+@media(max-width: 1300px) {
+  /*Menu principal*/
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+  
+  
+  .navbar-default .contact-container {
+    grid-column:   2 / 8;
+    list-style: none;
+    
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 20px 0 0px;;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 10 / 13
+}
+
+/*sección slider-01*/
+
+.text-container h1, .text-container h2 {
+  font-size: 3.4vw;
+}
+
+.text-container p {
+  font-size: 1.7vw;
+  text-align: justify;
+  margin-top: 2%;
+  padding: 0 35% 0 0;
+}
+
+.color-saber-mas, .color-solicitar-presupuesto{
+  font-size: 1.5vw;
+}
+
+.color-solicitar-presupuesto-blanco {
+  font-size: 1.5vw;
+}
+
+/*Sección 2 Puertas para camaras frigorificas*/
+.container_section_2 {
+  height: auto;
+  padding: 30px;
+}
+
+.text-section-2 {
+  margin: 10px 0 0px 0;
+  font-size: 2.1vw;
+}
+
+.title-section-2 {
+  font-size: 3vw;
+}
+
+.section2-p {
+  font-size: 1.6vw;
+}
+
+/*Responsive Galeria de proyecto*/
+.gallery-proyect  {
+  padding: 90px 30px 0px 30px;
+}
+.gallery-proyect .content-text1 {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect .text1 {
+  padding-top: 1px;
+  font-size: 2.3vw;
+}
+
+.grupo3 {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.content-text1 {
+  font-size: 1.2vw;
+  align-content: center;
+}
+
+.gallery-proyect #saber-mas {
+  padding: 2%;
+  background-color: transparent;
+  border: none;
+  color: var(--blue-color);
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+/*------------------------*/
+.gallery-proyect .content-text2 {
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect .puertas-rapidas {
+  width: 100%;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+} 
+
+.gallery-proyect .text2 {
+  font-size: 2.3vw;
+  padding-top: 47px;
+}
+
+.gallery-proyect .p2 {
+  font-size: 1.2vw;
+}
+
+/* Galeria de proyectos 2*/
+.gallery-proyect-2 .content-text03 {
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect-2 .puertas-almacen {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.gallery-proyect-2 .text03 {
+  padding-top: 50px;
+  font-size: 2.3vw;
+}
+
+
+.p03 {
+  font-size: 1.2vw;
+}
+
+.gallery-proyect-2 #saber-mas-03 {
+  padding: 2%;
+  font-size: 1.2vw;
+}
+
+.gallery-proyect-2 .content-text4 {
+  background-color: var(--withe-color);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect-2 .text4-aplicaciones {
+  padding-top: 50px;
+  font-size: 2.3vw;
+}
+
+.gallery-proyect-2 .aplicacion-especial {
+  border-radius: 0px 0px 20px 20px;
+} 
+
+.p4-aplicaciones {
+  font-size: 1.2vw;
+}
+
+
+/*sección 2 Slider imagenes sectores*/
+
+.swiper {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.h2-slider-02 {
+  padding: 30px 0 5px 0px;
+  text-align: center;
+  font-size: 1.7vw;
+} 
+
+.know-more a{
+  color: var(--blue-color);
+  text-decoration: none;
+  font-size: 1.2vw;
+}  
+
+/*seccion Quienes somos*/
+
+.about-img {
+  width: 500px;
+  height: autopx;
+  border-radius: 20px;
+  grid-column: 9 / 14;
+  grid-row: 1 / 10;
+  margin-top: 30px;
+}
+
+.about {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.about-p {
+  grid-column: 2 / 9;
+  grid-row: 2 / 10;
+  margin-left: 0px;
+  text-align: justify;
+  font-size: 15.6px;
+}
+
+/* sección Soluciones  en puertas*/
+.parrafo-1 {
+  font-size: 1.5vw;
+  grid-column: 8 / 13;
+  grid-row: 5 / 7;
+  margin-left: 1%;
+  padding-top: 4%;
+}
+
+.parrafo-2 {
+  grid-column: 8 / 13;
+  grid-row: 7 / 9;
+  font-size: 1.2vw;
+  padding-right: 12px;
+  padding-top: 1%;
+}
+
+.parrafo-3 {
+
+  font-size: 1.5vw;
+  width: 100%;
+  grid-column: 8 / 13;
+  grid-row: 10 / 11;
+  margin-left: 4%;
+  padding-top: 3%;
+}
+
+.parrafo-4 {
+
+  grid-column: 8 / 13;
+  grid-row: 11 / 13;
+  padding-right: 12px;
+  font-size: 1.2vw;
+  padding-top: 3%;
+}
+
+/*sección nuestros Clientes*/
+.ourclients-title {
+  top: -250px;
+  font-size: 2.5vw;
+  
+}
+
+.cients-subtitle {
+  bottom: 250px;
+  font-size: 1.5vw;
+}
+
+/*seccion mayor calidad*/
+.content-product {
+  width: 100%;
+}
+
+.product-service {
+  grid-column: 1 / 15;
+  grid-row: 1 / 2 ;
+  padding: 120px 0px 80px;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.manufacturing-color, .qualified-color, .market-color {
+  font-size: 1.5vw;
+}
+
+.manufacturing, .qualified, .market {
+  font-size: 1.2vw;
+}
+
+/*Sección números 3A*/ 
+
+.number3A {
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+#animation-30, #animation-890, #animation-5 {
+  font-size: 30px;
+}
+
+/*Footer 01*/
+.legal-footer, .solution-footer, .contact-footer {
+  font-size: 1.5vw;
+}
+
+.Legal-section1, .solution-section2, .contact-section3 {
+  font-size: 1.2vw;
+}
+
+/*Footer 02*/
+.content-footer-2, .content-footer-3 {
+  font-size: 1vw;
+}
+
+/*Pagina fabricantes de puertas firgorificas*/
+/*Sección principal*/
+
+  /*PAGINA CONTACTO-SECCIÓN FORMULARIO*/
+  .container-solicitud-presupuesto {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box {
+    height: 100%;
+    grid-column: 1 / 5;
+    grid-row: 6 / 14;
+    background-color: #F5F5F7;
+    margin: 0px 0 0 0;
+    display: flex;
+    align-items: flex-end;
+    }
+  
+  .imag-contact-2 {
+    grid-column: 2 / 7;
+    grid-row: 6 / 14;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: solid orange;
+    margin: 60px 0;
+    }
+  
+    .img-puertarapida-contact {
+      width: 420px;
+      height: auto;
+      box-shadow: 7px 10px 15px rgba(73, 73, 73, 0.5);
+    }
+  
+    .solicitud-presupuesto1 {
+      font-size: 3.4vw;
+      grid-column: 2 / 8;
+      grid-row: 2 / 3;
+      margin-left: 0px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    
+    }
+  
+    .parrafo-solicitud-presupuesto3a {
+      grid-column: 2 / 8;
+      grid-row: 3 / 7;
+      margin-left: 0px;
+      text-align: justify;
+      font-size: 15.6px;
+      padding-right: 40px;
+      padding-top: 20px;
+      margin-top: 0px;
+      border: solid orange;
+    }
+  
+    .parrafo-solicitud-presupuesto3a-2 {
+      border: solid orange; 
+      text-align: justify;
+      grid-column: 7 / 14;
+      grid-row: 8 / 14;
+      font-size: 15.6px;
+      padding-left: 50px;
+    }
+
+    .nombre- {
+      height: 50px;
+      font-size: 16px;
+    }
+    
+    .apellido- {
+      height: 50px;
+      font-size: 16px;
+    }
+    
+    .correo-email {
+      height: 50px;
+      font-size: 16px;
+    }
+    
+    .nombre-compañia {
+      font-size: 16px;
+      width: 100%;
+      height: 50px;
+    }
+  
+    .anotaciones-form {
+      font-size: 16px;
+      height: 110px;
+    }
+  
+    .form-container {
+      width: 80%;
+      height: 650px;
+      margin: 0 0 0 55px;
+      padding: 60px 40px 0px 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background-color: var(--black-color);
+      border-radius: 10px;
+      grid-column: 7 / 15;
+      grid-row: 2 / 8;
+      box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.3);
+      justify-content: flex-end;
+    }
+
+    .parrafo-contactanos {
+      padding: 0 80px;
+    }
+
+
+}
+
+@media (max-width: 1183px) {
+  /*sección galeria de proyectos*/
+  .gallery-proyect .text1 {
+    padding-top: 10px;
+  }
+  
+  .gallery-proyect  {
+    padding: 90px 0px 0px 0px;
+  }
+  
+  .gallery-proyect-2  {
+    padding: 50px 0px 90px 0px;
+  }
+
+}
+
+@media (max-width: 1115px) {
+  /*sub-menu*/
+  .navbar-default .contact-container {
+    grid-column:   2 / 8;
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 20px 0 0px;;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 10 / 13;
+    font-size: 14px;
+}
+
+.social-icono img {
+  width: 19px;
+  margin: 5px 3px 0 3px;
+}
+
+/*menu principal*/
+.main-menu a {
+  color: var(--withe-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-menu .logo {
+  height: 60px;
+  grid-column: 2 / 4;
+}
+
+.main-menu .menu {
+  grid-column: 8 / 13;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu .button-lenguaje {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+}
+
+#languageButton {
+  background-color: var(--yellow-color);
+  cursor: progress;
+  color: var(--black-color);
+  padding: 3px 13px 3px 13px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+/*sección slider*/
+.text-container {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  transform: translate(-50%, -20%); /* Centrar tanto horizontal como verticalmente */
+  width: 90%;
+  padding: 0 5%; /* Ajustar el relleno para pantallas pequeñas */
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* responsive Sección 2*/
+.container_section_2 {
+  padding: 40px 40px;
+}
+
+/*Seccion quienes somos*/
+.about-img {
+  width: 100%;
+  border-radius: 20px;
+  grid-column: 8 / 14;
+  grid-row: 1 / 10;
+  margin-top: 30px;
+}
+
+.about-p {
+  grid-column: 2 / 9;
+  grid-row: 2 / 10;
+  margin-left: 0px;
+  padding-right: 100px;
+  text-align: justify;
+  font-size: 1.4vw;
+}
+
+.about {
+  margin-top: 20px;
+}
+
+/*Sección números 3A*/ 
+
+.number3A {
+  font-size: 30px;
+  padding-top: 60px;
+}
+
+#animation-30, #animation-890, #animation-5 {
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+.paragraph-number3A {
+  padding-left: 40px;
+}
+
+.age {
+  position: relative;
+  bottom: 120px;
+  grid-column: 3 / 7;
+}
+
+.contry {
+  position: relative;
+  bottom: 120px;
+  color: var(--withe-color);
+  grid-column: 9 / 12;
+  grid-row: 2 / 2;
+}
+
+/*footer-01*/
+.logo-forms1, .logo-forms2 {
+  width: 75%;
+}
+
+.budget, .footer-one {
+  font-size: 2.7vw;
+}
+}
+
+@media (max-width: 1000px) {
+/*Pagina principal index.html*/
+/*Footer-2*/
+.social-icono2 {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  grid-column: 13 / 13;
+  grid-row: 2 / 2;
+  margin-left: 83px;
+}
+
+  /*Pagina de fabriucantes de puertas*/
+  /**/
+  .background-img-fabricante {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 0.3fr);
+  }
+  
+  .img-fabricantes {
+    width: 100%;
+    height: auto;
+    display: block;
+    grid-column: 1 / 15;
+    grid-row: 1 / 15;
+  }
+  
+  .h1-fabricantes {
+    color: var(--withe-color);
+    font-size: 34px;
+    grid-column: 2 / 10;
+    grid-row: 5 / 8;
+    margin-top: 00px;
+  }
+  
+  .parrafo-fabricante {
+    color: var(--withe-color);
+    grid-column: 2 / 10;
+    grid-row: 8 / 10;
+    text-align: justify;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  
+  .color_solicitar_p {
+    color: var(--blue-color);
+    grid-column: 2 / 10;
+    grid-row: 10 / 11;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 900px) {  
+  
+  .navbar-default {
+    width: 100%; 
+  }
+  
+  /*sub-menu*/
+  .navbar-default .contact-container {
+    grid-column:   2 / 8;
+    list-style: none;
+    font-size: 12px;
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 40px 0 0px;;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 10 / 13;
+    font-size: 12px;
+}
+
+.social-icono img {
+  width: 18px;
+  margin: 5px 3px 0 3px;
+}
+
+/*menu principal*/
+.main-menu a {
+  font-size: 12px;
+}
+
+.main-menu .logo {
+  height: 50px;
+  grid-column: 2 / 4;
+}
+
+.main-menu .menu {
+  grid-column: 8 / 13;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu .button-lenguaje {
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+  position: relative;
+}
+
+#languageButton {
+  background-color: var(--yellow-color);
+  cursor: progress;
+  color: var(--black-color);
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+/*Slider-01*/
+.text-container {
+  top: 40%;
+  left: 47%;
+  padding: 0 3% 0 5%; /* Ajustar el relleno para pantallas pequeñas */
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.text-container h1, .text-container h2 {
+  font-size: 4vw;
+}
+
+.text-container p {
+  font-size: 1.6vw;
+  margin-top: 2%;
+  padding: 0 35% 0 0;
+}
+
+.color-saber-mas, .color-solicitar-presupuesto, .color-solicitar-presupuesto-blanco {
+  font-size: 1.6vw;
+}
+
+/*Sección 2 Puertas para camaras frigorificas*/
+.container_section_2 {
+  height: auto;
+  padding: 10px;
+}
+
+
+.text-section-2 {
+  margin: 10px 0 0px 0;
+  font-size: 2.3vw;
+}
+
+.section2-p {
+  font-size: 1.5vw;
+}
+
+/* section 3 Proyectos */
+/* Galeria de proyectos 1*/
+.gallery-proyect .content-text1 {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect .text1 {
+  padding-top: 1px;
+}
+
+.gallery-proyect {
+  padding-top: 6%;
+}
+
+.grupo3 {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.content-text1 {
+  font-size: 1.4vw;
+  align-content: center;
+}
+
+.text1 {
+  font-size: 2.3vw;
+}
+
+.gallery-proyect #saber-mas {
+  padding: 2%;
+  background-color: transparent;
+  border: none;
+  color: var(--blue-color);
+  cursor: pointer;
+  font-size: 1.4vw;
+}
+/*------------------------*/
+.gallery-proyect .content-text2 {
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect .puertas-rapidas {
+  width: 100%;
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 20px 20px;
+} 
+
+.gallery-proyect .text2 {
+  font-size: 2.3vw;
+  padding-top: 27px;
+}
+
+.gallery-proyect .p2 {
+  font-size: 1.4vw;
+}
+
+/* Galeria de proyectos 2*/
+.gallery-proyect-2 {
+  padding-bottom: 6%;
+}
+.gallery-proyect-2 .content-text03 {
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect-2 .puertas-almacen {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.gallery-proyect-2 .text03 {
+  padding-top: 20px;
+}
+
+.text03 {
+  font-size: 2.3vw;
+}
+
+.p03 {
+  font-size: 1.4vw;
+}
+
+.gallery-proyect-2 #saber-mas-03 {
+  padding: 2%;
+  font-size: 1.4vw;
+}
+
+.gallery-proyect-2 .content-text4 {
+  background-color: var(--withe-color);
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  height: 45%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.gallery-proyect-2 .aplicacion-especial {
+  border-radius: 0px 0px 20px 20px;
+} 
+
+.text4-aplicaciones {
+  font-size: 2.3vw;
+}
+
+.p4-aplicaciones {
+  font-size: 1.4vw;
+}
+
+.gallery-proyect-2 .text4-aplicaciones {
+  padding-top: 20px;
+}
+
+
+/*Sección video*/
+.video-puertas .container-title-quiality {
+  text-align: center;
+  position:relative;
+  bottom: 120px;
+  font-size: 3vw;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  }
+
+  .video-puertas {
+    padding-top: 30px;
+  }
+
+  .swiper-pagination-bullet {
+    background: orange;
+    width: 1.1vw;
+    height: 1.1vw;
+  }
+
+/*sección 4 Galeria de proyectos por sectores industriales*/
+/*Titulo*/
+#solution {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5vw;
+  margin-bottom: 10px;
+  padding: 20px 0px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0 0 0px 0;
+  overflow: 6 visible !important;
+  padding: 40px 0 40px 0;
+}
+
+.h2-slider-02 {
+  padding: 10px 0 5px 0px;
+  text-align: center;
+  font-size: 2.1vw;
+} 
+
+.know-more a{
+  color: var(--blue-color);
+  text-decoration: none;
+  font-size: 1.4vw;
+}
+
+/* Sección Acerca de nosotros*/
+.container-about {
+  padding: 10px 0 40px 0;
+}
+
+.ourclients-title {
+  font-size: 2.8vw;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 20px;
+  grid-column: 8 / 14;
+  grid-row: 1 / 10;
+  margin-left: 20px;
+}
+
+.about {
+  font-size: 2.8vw;
+  grid-column: 2 / 7;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.about-p {
+  font-size: 1.4vw;
+  padding-right: 60px;
+
+}
+
+/*sección soluciones*/
+.container-solutions {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black-color);
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(14, 0.1fr);
+}
+
+.soluciones-h2 {
+  grid-row: 3 / 3;
+  text-align: left;
+  padding-left: 4%;
+  font-size: 2.8vw;
+}
+
+.empresa-h2 {
+  grid-row: 4 / 4;
+  text-align: left;
+  font-size: 2.8vw;
+}
+
+.parrafo-1 {
+  grid-row: 5 / 5;
+  font-size: 1.8vw;
+  padding-left: 3%;
+  padding-top: 4%;
+}
+
+.parrafo-2 {
+  grid-row: 6 / 9;
+  margin-left: 4%;
+  font-size: 1.3vw;
+  text-align: justify;
+  padding-right: 12px;
+  padding-top: 4%;
+}
+
+.parrafo-3 {
+  grid-row: 9 / 9;
+  font-size: 1.8vw;
+  width: 100%;
+  grid-column: 8 / 13;
+  grid-row: 10 / 11;
+  margin-left: 4%;
+  padding-top: 10%;
+}
+
+.parrafo-4 {
+  width: 100%;
+  grid-column: 8 / 13;
+  grid-row: 11 / 13;
+  margin-left: 4%;
+  text-align: justify;
+  padding-right: 12px;
+  font-size: 1.3vw;
+}
+
+/*Sección Nuestros clientes*/
+.client-slider {
+  padding-top: 0;
+}
+
+.color-blue {
+  font-size: 1.5vw;
+}
+
+.slider-item img {
+  padding-top: 110px;
+
+}
+
+.puerta-pivotante-solution {
+  width: 100%;
+  height: 100%;
+  grid-column: 1 / 8;
+  grid-row: 1 / 15;
+}
+
+/*Sección calidad 3A*/
+.product-service {
+  width: 100%;
+  grid-column: 1 / 15;
+  grid-row: 1 / 2 ;
+  text-align: center;
+  padding: 70px 0px 50px;
+  font-size: 2vw;
+}
+
+.manufacturing-color, .qualified-color, .market-color {
+  font-size: 1.6vw;
+}
+
+/*Sección números 3A*/ 
+.content-number3A {
+  width: 100%;
+  height: auto;
+  background-color: var(--black-color);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 0.2fr);
+}
+
+.number3A {
+  width: 100%;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+  font-size: 4vw;
+  text-align: end;
+  padding-top: 50px;
+}
+
+.number-img01 {
+  width: 100%;
+  text-align: start;
+}
+
+.number-img02 {
+  position: relative;
+  top: -30px;
+  width: 23%;
+  grid-column: 2 / 6;
+  grid-row: 2 / 2;
+  content: url('/IMG/logo_3a.svg');
+}
+
+.age {
+  position: relative;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+  position: relative;
+  top: 130px;
+  text-align: end;
+}
+
+#animation-30, #animation-890, #animation-5 {
+  font-size: 25px;
+  text-align: end;
+}
+
+.proyect{
+  position: relative;
+  top: 210px;
+  color: var(--withe-color);
+  text-align: end;
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+}
+
+.contry {
+  position: relative;
+  top: 290px;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+  text-align: end;
+}
+
+.custom-img-size1 {
+  width: 60%;
+}
+
+.paragraph-number3A {
+  color: var(--blue-color);
+  font-size: 15px;
+  padding: 0;
+}
+
+.paragraph-number3A::after {
+  content: "";
+  display:block;
+  width: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0px;
+  margin-top: 3px;
+  align-items: end;
+}
+/*Footer 02*/
+
+.content-footer-2 {
+  color: var(--withe-color);
+  font-size: 2.5vw;
+  grid-column: 2 / 14;
+  grid-row: 2 / 2;
+  opacity: 70%;
+  text-align: center;
+}
+
+.content-footer-3 {
+  text-align: center;
+  color: var(--withe-color);
+  font-size: 13px;
+  grid-column: 2 / 14;
+  grid-row: 4 / 4;
+  opacity: 70%;
+}
+
+.social-icono2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  grid-column: 7 / 9;
+  grid-row: 6 / 6;
+  margin-top: 3px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.icono-scale {
+  width: 23px;
+  }
+
+/*-----------------------------------------*/
+/*Pagina Fabricantes de puertas*/
+/*Pagina principal*/
+.background-img-fabricante {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 0.3fr);
+}
+
+.img-fabricantes {
+  width: 100%;
+  height: auto;
+  display: block;
+  grid-column: 1 / 15;
+  grid-row: 1 / 15;
+}
+
+.h1-fabricantes {
+  color: var(--withe-color);
+  font-size: 34px;
+  grid-column: 2 / 10;
+  grid-row: 5 / 8;
+  margin-top: 0px;
+  border: solid orange;
+}
+
+.parrafo-fabricante {
+  color: var(--withe-color);
+  grid-column: 2 / 10;
+  grid-row: 9 / 11;
+  text-align: justify;
+  margin-top: -10px;
+  font-size: 15px;
+  border: solid orange;
+}
+
+.color_solicitar_p {
+  color: var(--blue-color);
+  grid-column: 2 / 10;
+  grid-row: 11 / 11;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  border: solid orange;
+  margin-top: 5px;
+}
+
+}
+
+
+@media (max-width: 780px) {
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+  
+  /*sub-menu*/
+  .navbar-default .contact-container {
+    grid-column:   2 / 9;
+    list-style: none;
+    font-size: 12px;
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 5px 0 0px;;
+  }
+
+  .catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 9 / 13;
+    font-size: 12px;
+}
+
+.social-icono img {
+  width: 18px;
+  margin: 5px 3px 0 3px;
+}
+
+/*menu principal*/
+.main-menu a {
+  color: var(--withe-color);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-menu .logo {
+  height: 50px;
+  grid-column: 2 / 4;
+}
+
+.main-menu .menu {
+  grid-column: 8 / 13;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu .button-lenguaje {
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+  position: relative;
+}
+
+#languageButton {
+  background-color: var(--yellow-color);
+  cursor: progress;
+  color: var(--black-color);
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+/*seccion slider*/
+
+.text-container h1, .text-container h2 {
+  font-size: 5vw;
+}
+
+.text-container p {
+  font-size: 1.9vw;
+}
+
+.color-saber-mas {
+  font-size: 1.7vw;
+  padding-right: 40px; 
+}
+
+.color-solicitar-presupuesto {
+font-size: 1.7vw;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  transition: background-color 0.6s ease;
+}
+
+.slider-nav {
+  bottom: 30px;
+}
+
+/*sección 2 puertas para camaras*/
+.title-section-2 {
+  font-size: 3.6vw;
+}
+
+.section2-p {
+  font-size: 1.8vw;
+}
+
+/*Sección nuestros clientes*/ 
+
+.slider-item img {
+  padding-top: 50px;
+
+}
+.slider-item {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.content-ourclients {
+  margin-top: 40px;
+}
+
+.slider-track {
+  padding: 0;
+}
+
+
+
+/*Footer 02*/
+.content-footer-2, .content-footer-3 {
+  font-size: 1.3vw;
+  grid-column: 2 / 6;
+}
+
+.content-footer-3 {
+  font-size: 1.3vw;
+  grid-column: 6 / 12;
+}
+}
+
+@media only screen and (max-width: 698px) {
+  .navbar-default {
+    width: 100%; 
+    background-color: var(--silver-color);
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    align-items:center;
+  }
+  
+  /*sub-menu*/
+  .navbar-default .contact-container {
+    grid-column:   2 / 11;
+    list-style: none;
+    font-size: 12px;
+  }
+  
+  .navbar-default .email-info {
+    margin: 0 50px 0 0px;;
+  }
+
+  .catalogo {
+    display: none;
+    flex-wrap: wrap;
+    grid-column: 10 / 13;
+    font-size: 12px;
+}
+
+.social-icono img {
+  width: 18px;
+  margin: 5px 3px 0 3px;
+}
+
+/*menu principal*/
+.main-menu a {
+  color: var(--withe-color);
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.main-menu .logo {
+  height: 50px;
+  grid-column: 2 / 4;
+}
+
+.main-menu .menu {
+  grid-column: 8 / 13;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-menu .button-lenguaje {
+  display: none; /*Oculta el boton de lenguaje */
+}
+
+
+
+#languageButton {
+  background-color: var(--yellow-color);
+  cursor: progress;
+  color: var(--black-color);
+  padding: 3px 10px 3px 10px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+.menu li {
+  display: none;
+}
+
+.hamburguesa {
+  display: flex;
+  margin-right: 50px;
+}
+
+.menu li #lenguaje {
+  display: none;
+}
+
+.menu li, #buttonLenguaje {
+  display: none;
+}
+
+
+/*footer1*/
+
+
+
+/*footer2*/
+
+.social-icono2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  grid-column: 12 / 14;
+  grid-row: 2 / 2;
+  margin-left: 8px;
+}
+
+.icono-scale {
+  width: 18px;
+}
+
+}
+
+
+/*ASPECTO MOVIL*/
+  @media (max-width: 430px) {
+    .navbar-default .contact-container {
+      grid-column:   2 / 12;
+      list-style: none;
+      font-size: 10px;  
+    }
+
+    .navbar-default .email-info {
+      margin: 0 0px 0 0px;
+    }
+
+    .social-icono img {
+      width: 14px;
+      height: 14px;
+      margin: 3px;
+    }
+
+    .social-icono {
+      align-items: center;
+      display: flex;
+      grid-column: 13 / 13;
+      
+    }
+
+    .hamburguesa {
+      margin-right: 32px;
+    }
+    
+    /* Estilo del slider */
+.slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider {
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -20%); /* Centrar tanto horizontal como verticalmente */
+  width: 100%;
+  padding: 0 8%; /* Ajustar el relleno para pantallas pequeñas */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#slide1 img {
+  content: url('IMG/Portda_01_movil.webp');
+}
+
+#slide2 img {
+  content: url('IMG/Portda_02_movil.webp');
+}
+
+#slide3 img {
+  content: url('IMG/Portda_03_movil.webp');
+}
+
+#slide4 img {
+  content: url('IMG/Portda_04_movil.webp');
+}
+
+#slide5 img {
+  content: url('IMG/Portda_05_movil.webp');
+}
+
+.text-container h1, .text-container h2 {
+  font-size: 6.7vw;
+}
+
+.text-container p {
+  font-size: 3.3vw;
+  margin-top: 2%;
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+.text3 h2, .text3 p {
+  text-align: center;
+}
+
+.text4 h2, .text2 p, .text4 p {
+  text-align: center;
+}
+
+.color-saber-mas-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.color-saber-mas {
+  font-size: 3vw;
+  display: block;
+  padding-right: 20px; 
+  text-align: center; 
+}
+
+.color-solicitar-presupuesto {
+  font-size: 3vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.color-solicitar-presupuesto-blanco {
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+.slider-nav {
+  position: relative; 
+  bottom: 35px;
+  width: 100%;
+  text-align: center;
+  left: 0; 
+  right: 0;
+  margin-bottom: -21px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 3px;
+  background-color: var(--yellow-color);
+  border-radius: 50%;
+}
+/*Cierre Slider*/
+/* section 2 */
+.text-section-2 {
+  margin: 0px 0 0px 0;
+  font-size: 2.7vw;
+}
+
+.section2-p {
+  font-size: 3vw;
+}
+
+.title-section-2 {
+  font-size: 5.5vw;
+}
+
+.title-section-2::after {
+  content: "";
+  display:block;
+  width: 80%;
+  margin: 0 auto;
+  border: 0.1px solid var(--yellow-color);
+  border-radius: 0px;
+  position: relative;
+  top: -103px;
+}
+
+.container_section_2 .text-section-2 {
+  grid-column: 1 / 12;
+  grid-row: 2 / 6;
+  padding: 0px 16px;
+  color: var(--withe-color);
+  text-align: center;
+}
+
+/* section 3 Proyectos */
+/* Galeria de proyectos 1*/
+.gallery-proyect  {
+  width: 100%; 
+  background-color: var(--withe-color);
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(2, 0.1fr); 
+  padding: 20px 20px 0px 20px;
+}
+
+.gallery-proyect .gallery-container {
+  margin: 10px;
+  grid-column: 1 / 15;
+  grid-row: 1 / 1;
+  text-align: center;
+}
+
+.gallery-container:hover {
+  transform: scale(1.05);
+}
+
+.gallery-proyect #saber-mas {
+  padding: 15px 0 0 0;
+  font-size: 2.7vw;
+}
+
+.gallery-proyect .text1 {
+  font-size: 5vw;
+}
+
+.gallery-proyect .p1 {  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 2.9vw;
+}
+
+/*--------------------------------*/
+
+.gallery-proyect .content-text2 {
+  height: 45%;
+}
+
+.gallery-proyect .text2 {
+  padding-top: 20px;
+  font-size: 5vw;
+}
+
+.gallery-proyect .p2 {  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 2.9vw;
+}
+
+.gallery-container-2:hover {
+  transform: scale(1.05);
+}
+
+.gallery-proyect .gallery-container-2 {
+  margin: 10px;
+  grid-column: 1 / 15;
+  grid-row: 2 / 2;
+  text-align: center;
+  padding-top: 50px;
+}
+/*cierre galeria proyecto 1*/ 
+
+
+/*galeria proyecto 2*/
+.gallery-proyect-2  {
+  width: 100%;
+  background-color: var(--withe-color);
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(2, 0.1fr);  
+  padding: 40px 20px 40px 20px;
+}
+
+.gallery-proyect-2 .gallery-container-3 {
+  margin: 10px;
+  grid-column: 1 / 15;
+  grid-row: 1 / 1;
+  text-align: center;
+}
+
+.gallery-proyect-2 .text03 {
+  font-size: 5vw;
+  padding-top: 20px;
+
+}
+
+.gallery-container-3:hover {
+  transform: scale(1.05);
+}
+
+.gallery-proyect-2 .content-text03 {
+  height: 45%;
+}
+
+.gallery-proyect-2 #saber-mas-03 {
+  padding: 15px 0 0 0;
+  font-size: 2.7vw;
+}
+
+.gallery-proyect-2 .p03 {  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 2.9vw;
+}
+
+.gallery-proyect-2 .gallery-container-4 {
+  margin: 10px;
+  grid-column: 1 / 15;
+  grid-row: 2 / 2;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.gallery-proyect-2 .content-text4 {
+  height: 45%;
+}
+
+.gallery-proyect-2 .text4-aplicaciones {
+  padding-top: 30px;
+  font-size: 5vw;
+}
+
+.gallery-container-4:hover {
+  transform: scale(1.05);
+}
+
+.gallery-proyect-2 .p4-aplicaciones {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-size: 2.9vw;
+}
+
+.video-puertas {
+position: relative;
+padding-top: 80px;
+}
+
+.video-puertas .content-video {
+  width: 100%;
+  height: auto;
+}
+
+.video-puertas .container-title-quiality {
+text-align: center;
+position:relative;
+bottom: 180px;
+font-size: 40px;
+opacity: 0;
+transition: opacity 1s ease-in-out;
+}
+
+
+.color-doors {
+  color: var(--yellow-color);
+}
+
+
+.titulo-quality {
+  display: inline-block;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--withe-color);
+}
+
+
+.content-footer {
+  width: 100%;
+  background-color: var(--black-color);
+}
+
+.content-footer {
+  width: 100%;
+  background-color: var(--black-color)
+}
+
+/*Sección movil video*/
+
+.video-puertas {
+  position: relative;
+  padding-top: 40px;
+  }
+  
+  .video-puertas .container-title-quiality {
+  bottom: 60px;
+  font-size: 4vw;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  }
+
+  /*sección 2 movil Slider imagenes sectores*/
+
+.swiper {
+  width: 100%;
+  margin: 0 0 10px 0;
+  overflow: 5 visible !important;
+  padding: 10px 0 10px 0;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+  padding: 0px 0px 50px 0px;
+  border-radius: 10px 10px;
+  
+}
+
+.img-slider-2 {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 10px 0 0;
+}
+
+.h2-slider-02 {
+  padding: 30px 35px 0px 32px;
+  text-align: center;
+  font-size: 4vw;
+} 
+
+ul {
+  padding: 1px;
+  text-align: center;
+  list-style: none;
+}
+
+.know-more a{
+  color: var(--blue-color);
+  text-decoration: none;
+  font-size: 2.6vw;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  
+} 
+
+.swiper-pagination-bullet {
+  position: relative;
+  top: -15px;
+  background: orange;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet:hover {
+  background: rgb(140, 92, 2);
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: black;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px;  
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: rgba(253, 182, 15, 0.806);
+  border-radius: 8%;
+  padding: 10px;
+}
+
+.content-h2 {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  box-shadow:1px 1px 12px 1px rgba(10, 10, 10, 0.1);
+  border-radius: 10px;
+
+}
+
+#solution {
+  width: 100%;
+  text-align: center;
+  font-size: 4.5vw;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/*Cierre slider 2*/
+
+/* Sección Acerca de nosotros*/
+
+.container-about {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(4, 0.2fr);
+  padding: 10px 0 20px 0;
+}
+
+.about-img {
+  width: 360px;
+  height: auto;
+  border-radius: 20px;
+  grid-column: 2 / 14;
+  grid-row: 3 / 3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  position: relative;
+}
+
+
+.about {
+  font-size: 5vw;
+  grid-column: 1 / 15;
+  grid-row: 1 / 1;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about::before {
+  content: "";
+  display: block;
+  width: 80%;
+  align-items: center;
+  border: 0.5px solid var(--yellow-color);
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
+}
+
+.about-p {
+  grid-column: 2 / 14;
+  grid-row: 2 / 2;
+  text-align: center;
+  font-size: 2.9vw;
+  padding: 0 15px 30px 15px;
+  margin: 0;
+}
+.about-p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border: 0.5px solid var(--yellow-color);
+  position: relative;
+  top: 300px;
+}
+
+.about-puertas {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+/* Sección movil soluciones integrales*/
+.container-solutions {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black-color);
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(11, 0.4fr);
+}
+
+#PuertaPivotante img {
+  content: url('IMG/Seccion_soluciones_movil.webp');
+  grid-column: 1 / 14;
+  grid-row: 1 / 9;
+}
+
+.soluciones-h2 {
+  grid-column: 3 / 12;
+  grid-row:7 / 7;
+  text-align: center;
+  padding-left: 0%;
+  padding: 0;
+  margin: 0;
+  font-size: 5vw;
+  position: relative;
+  top: 0px;
+}
+
+.empresa-h2 {
+  font-weight: 350;
+  grid-column: 3 / 12;
+  grid-row: 8 / 8;
+  text-align: center;
+  font-size: 5vw;
+  padding-left: 0%;
+  position: relative;
+  top: -35px;
+}
+
+.parrafo-1 {
+  font-size: 3.5vw;
+  color: var(--withe-color);
+  width: 100%;
+  grid-column: 3 / 12;
+  grid-row: 9 / 9;
+  padding: 0 10px;
+  margin: 0;
+  padding-top: 0%;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.parrafo-2 {
+  grid-column: 2 / 13;
+  grid-row: 10 / 11;
+  margin-left:0;
+  font-size: 2.9vw;
+  text-align: center;
+  padding: 0 10px;
+  padding-top: 2%;
+  position: relative;
+  top: -60px;
+}
+
+.parrafo-3 {
+  font-size: 18px;
+  width: 100%;
+  grid-column: 2 / 13;
+  grid-row: 11 / 11;
+  text-align: center;
+  margin-left: 0%;
+  padding-top: 1%;
+  font-size: 3.5vw;
+  padding: 0 10px;
+  position: relative;
+  top: -40px;
+}
+
+.parrafo-4 {
+  color: var(--withe-color);
+  width: 100%;
+  grid-column: 2 / 13;
+  grid-row: 12 / 13;
+  margin-left: 0%;
+  text-align: center;
+  padding-right: 0px;
+  font-size: 2.9vw;
+  position: relative;
+  top: -80px;
+}
+
+/*Nuestros Clientes*/
+.paddlenav {
+  display: flex;
+  left: 50px;
+  margin: 10px 0 0 0;
+  align-items: center;
+  padding: 10px;
+}
+
+.client-slider {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-track {
+  display: flex;
+  will-change: transform;
+  animation: scroll 40s linear infinite;
+}
+
+.slider-item {
+  min-width: 160px;
+  box-sizing: border-box;
+}
+
+.slider-item img {
+  width: 150px;
+  display: block;
+  padding-top: 100px;
+
+}
+
+.ourclients-title {
+  position:relative;
+  text-align:center;
+  bottom: 0px;
+  font-size: 5vw;
+  
+}
+
+.cients-subtitle {
+  position: relative;
+  text-align: center;
+  bottom: 250px;
+  font-size: 17px;
+}
+
+.color-clients {
+  color: var(--yellow-color);
+  text-align: center;
+  font-weight: 400;
+}
+
+.btn-clients {
+  border: none;
+  background:none;
+  border: 3px solid
+}
+
+.content-ourclients {
+  text-align: center;
+  margin: 40px 0 0 0;
+}
+
+.color-blue {
+  color:var(--blue-color);
+  font-size: 12px;
+  position: relative;
+  top: -70px;
+}
+
+/*Sección Mayor calidad*/
+.content-product {
+  width: 100%;
+  background-color: #F5F5F7;
+  display:grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(5, 0.3fr);
+}
+
+.product-service {
+  width: 100%;
+  grid-column: 1 / 15;
+  grid-row: 1 / 2 ;
+  text-align: center;
+  padding: 40px 0px 40px;
+  font-size: 3.5vw;
+}
+
+.style-mayor {
+  font-weight: 400;
+}
+
+.style-en {
+  font-weight: 400;
+}
+
+.manufacturing-color, .qualified-color, .market-color {
+  color: var(--blue-color);
+  font-weight: 400;
+  font-size: 4vw;
+}
+
+.manufacturing {
+  grid-column: 2  / 14;
+  grid-row: 2 / 2;
+  text-align: justify;
+  padding: 0 15px;
+  font-size: 2.7vw;
+}
+
+.qualified {
+  grid-column: 2 / 14;
+  grid-row: 3 / 3;
+  text-align: justify;
+  padding: 15px 15px 0 15px;
+  font-size: 2.7vw;
+}
+
+.market {
+  grid-column: 2 / 14;
+  grid-row: 4 / 4;
+  text-align: justify;
+  padding: 15px 15px;
+  font-size: 2.7vw;
+}
+
+/*Sección movil Calidad certificada*/
+.content-calidad-certificada {
+  width: 100%;
+  background-color: var(--withe-color);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 0.3fr);
+}
+
+.certificacioniso {
+  width: 100;
+  font-size: 5vw;
+  font-weight: 400;
+  text-align: center;
+  grid-column: 2 / 12;
+  grid-row: 2 / 2;
+}
+
+.calidadcerttificada {
+  width: 100%;
+  font-size: 5vw;
+  text-align: center;
+  grid-column: 1 / 13;
+  grid-row: 2 / 2;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.certificacion-iso14001 {
+  width: 90%;
+  grid-column: 3 / 5;
+  grid-row: 3 / 3;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.certificado-iso9001 {
+  width: 90%;
+  grid-column: 9 / 11;
+  grid-row: 3 / 3;
+  position: relative;
+  left: 0px;
+  margin: 0 auto;
+}
+
+.certificado-iso45001 {
+  width: 90%;
+  grid-column: 6 / 8;
+  grid-row: 3 / 3;
+  position: relative;
+  left: 0px;
+  margin: 0 auto;
+}
+
+/*sección movil numeros 3A*/
+.content-number3A {
+  width: 100%;
+  height: 340px;
+  background-color: var(--black-color);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 0.2fr);
+}
+
+.number3A {
+  width: 100%;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 1 / 1;
+  font-size: 5vw;
+  text-align: end;
+  padding-top: 50px;
+}
+
+.number-img01 {
+  width: 100%;
+  text-align: start;
+}
+
+.number-img02 {
+  position: relative;
+  left: -150px;
+  top: -10px;
+  width: 30%;
+  grid-column: 7 / 12;
+  text-align: justify;
+  grid-row: 2 / 2;
+  content: url('/IMG/logo_3a.svg');
+}
+
+.age {
+  position: relative;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 2 / 2;
+  position: relative;
+  top: -160px;
+  text-align: end;
+}
+
+#animation-30, #animation-890, #animation-5 {
+  font-size: 25px;
+  text-align: end;
+}
+
+.proyect{
+  position: relative;
+  bottom: 90px;
+  color: var(--withe-color);
+  text-align: end;
+  grid-column: 7 / 12;
+  grid-row: 2 / 2;
+}
+
+.contry {
+  position: relative;
+  bottom: 20px;
+  color: var(--withe-color);
+  grid-column: 7 / 12;
+  grid-row: 2 / 2;
+  text-align: end;
+}
+
+.custom-img-size1 {
+  width: 70%;
+  height: auto;
+}
+
+.custom-img-size2 {
+  width: 400px;
+}
+
+.paragraph-number3A {
+  color: var(--blue-color);
+  font-size: 15px;
+  padding: 0;
+}
+
+.paragraph-number3A::after {
+  content: "";
+  display:block;
+  width: 100%;
+  border: 0.1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0px;
+  margin-top: 3px;
+  align-items: end;
+}
+
+/* Animación de parpadeo */
+@keyframes blink {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.blink::before {
+  content: "+";
+  animation: blink 1s infinite;
+}
+
+.no-blink::before {
+  content: "+";
+  animation: none;
+}
+
+/*Footer*/
+footer {
+  background-color: #F5F5F7;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-forms1, .logo-forms2 {
+  width: 50px;
+}
+
+.footer-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(13, 0.2fr);
+}
+
+.request-color {
+  color: var(--yellow-color);
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.budget {
+  width: 100%;
+  height: 100%;
+  font-size: 4vw;
+  text-align: left;
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+}
+
+.footer-one {
+  width: 100%;
+  height: 100%;
+  border: 3px solid #F9C000;
+  grid-column: 2 / 14;
+  grid-row: 1 / 2;
+}
+
+.logo-forms1 {
+  grid-column: 7 / 9;
+  grid-row: 2 / 2;
+  text-align: center;
+  padding-right: 13px ;
+}
+
+.logo-forms2 {
+  grid-column: 7 / 9;
+  grid-row: 2 / 2;
+  text-align: center;
+  padding-right: 13px ;
+}
+
+
+.legal-footer {
+  grid-column: 2 / 8;
+  grid-row: 4 / 4;
+  text-align: left;
+  color: var(--blue-color);
+  font-weight: 400;
+  font-size: 3.5vw;
+  cursor: pointer;
+  position:relative;
+  top: 0px;
+}
+
+.legal-footer::before {
+  content: "";
+  opacity: 20%;
+  display:block;
+  width: 200%;
+  border: 0.1px solid var(--yellow-color);
+  border-radius: 0px;
+  position: relative;
+  top: -6px;
+}
+
+.legal-footer::after {
+  content:'>';
+  position: absolute;
+  right: -100%;
+}
+
+.legal-footer.rotated::after {
+  transform: rotate(90deg);
+}
+
+
+.Legal-section1 {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 8;
+  grid-row: 5 / 5;
+  text-align: left;
+  font-size: 2.9vw;
+  padding-bottom: 20px;
+  display: none; /* Ocultar por defecto */
+}
+
+.Legal-section1::after {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 8;
+  grid-row: 5 / 5;
+  text-align: left;
+  font-size: 2.9vw;
+  padding-bottom: 20px;
+}
+
+.solution-footer {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 6 / 6;
+  text-align: left;
+  color: var(--blue-color);
+  font-weight: 400;
+  cursor: pointer;
+  position:relative;
+  font-size: 3.5vw;
+
+}
+
+.solution-footer::before {
+  content: "";
+  opacity: 20%;
+  display:block;
+  width: 133%;
+  border: 0.1px solid var(--yellow-color);
+  border-radius: 0px;
+  position: relative;
+  top: -5px;
+}
+
+.solution-footer::after {
+  content:'>';
+  position: absolute;
+  right: -33%;
+}
+
+.solution-footer.rotated::after {
+  transform: rotate(90deg);
+}
+
+.solution-section2 {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 7 / 7;
+  text-align: left;
+  font-size: 2.9vw;
+  display: none; /* Ocultar por defecto */
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.solution-section2::after {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 7 / 7;
+  text-align: left;
+  font-size: 2.9vw;
+  padding-bottom: 20px;
+}
+
+.contact-footer {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 8  / 8;
+  text-align: left;
+  font-weight: 400;
+  font-size: 3.5vw;
+  cursor: pointer;
+  position:relative;
+}
+
+.contact-footer::before {
+  content: "";
+  opacity: 20%;
+  display:block;
+  width: 133%;
+  border: 0.1px solid var(--yellow-color);
+  border-radius: 0px;
+  position: relative;
+  top: -6px;
+}
+
+.contact-footer::after {
+  content:'>';
+  position: absolute;
+  right: -33%;
+}
+
+.contact-footer.rotated::after {
+  transform: rotate(90deg);
+}
+
+.contact-section3 {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 9 / 9;
+  text-align: justify;
+  font-size: 2.9vw;
+  display: none; /* Ocultar por defecto */
+}
+
+.contact-section3::after {
+  width: 100%;
+  height: 100%;
+  grid-column: 2 / 11;
+  grid-row: 9 / 9;
+  text-align: justify;
+  font-size: 2.9vw;
+  display: none; /* Ocultar por defecto */
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+/*Barra final*/
+.container-footer2 {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(6, 0.2fr);
+  background-color: var(--black-color);
+  width: 100%;
+  padding: 5px 0 5px 0;
+  align-items: center;
+}
+
+.content-footer-2 {
+  color: var(--withe-color);
+  font-size: 3vw;
+  grid-column: 2 / 14;
+  grid-row: 2 / 2;
+  opacity: 70%;
+}
+
+.content-footer-3 {
+  color: var(--withe-color);
+  font-size: 13px;
+  grid-column: 2 / 14;
+  grid-row: 4 / 4;
+  opacity: 70%;
+  margin-left: 2px;
+}
+
+.social-icono2 {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  grid-column: 3 / 14;
+  grid-row: 6 / 6;
+  margin-left: 83px;
+  align-items: center;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.icono-scale {
+  width: 24px;
+  }
+} 
+
+  /*----------------------------------*/
+  
+  @media (max-width: 393px) {
+    .navbar-default {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  
+    .navbar-container {
+      margin-top: 0px;
+    }
+  
+    .contact-container a {
+      margin-left: 2px;
+    }
+  
+    .contact-container {
+      margin-bottom: 0px;
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .navbar-default {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .navbar-container {
+      margin-left: 2px;
+    }
+  
+    .contact-container,
+    .catalogo,
+    .social-icono {
+      font-size: 70%;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .navbar-container {
+      align-items: flex;
+    }
+  
+    .contact-container,
+    .catalogo,
+    .social-icono {
+      margin-bottom: 10px;
+      font-size: 55%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .navbar-container {
+      align-items: flex;
+    }
+  
+    .contact-container,
+    .catalogo,
+    .social-icono {
+      margin-bottom: 10px;
+      font-size: 55%;
+    }
+  }
